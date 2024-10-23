@@ -1,0 +1,15 @@
+name: WalkingGnome
+version: '1.0'
+main: me.matsubara.walkinggnome.WalkingGnomePlugin
+api-version: '1.21'
+description: 'A useless gnome who wanders the land.'
+libraries:
+  - org.apache.commons:commons-lang3:3.13.0
+  - commons-io:commons-io:2.14.0
+
+commands:
+  walkinggnome:
+    description: main command.
+    usage: /<command>
+    aliases:
+      - wgnome
